@@ -83,7 +83,7 @@ if  os.path.isdir(sys.argv[0]):
 #---------------------------------------------------------------------------------------------------
 VERSION         = "3.14-0.22.40"
 
-CONFIG_FILE     = "evogateway.cfg"
+CONFIG_FILE     = "/data/evogateway.cfg"
 
 config = configparser.RawConfigParser()
 config.read(CONFIG_FILE)
